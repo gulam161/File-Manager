@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.f_between {
+  @apply flex justify-between items-center;
+}
+.bg_slate {
+  @apply px-2 py-1 rounded-md bg-slate-50;
+}
